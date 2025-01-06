@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body class="bg-black px-1 py-2 md:px-2 md:py-3 box-border">
+  <!-- navbar -->
+  <section>
+    <!-- navbar -->
+    <nav class="">
+      <!-- nav container -->
+      <div class="flex justify-between px-2 items-center pb-1">
+      <!-- logo -->
+      <div class="flex items-center text-white font-medium text-[16px]">
+        <i class='bx bxl-audible text-2xl mr-[2px]'></i>
+        <p>Cardo</p>
+      </div>
+      <!-- desktop links -->
+      <div class="hidden md:flex space-x-5 text-[13px] font-medium text-white ">
+        <a href="#">Deposit</a>
+        <a href="#">Dashboard</a>
+        <a href="#">Company</a>
+        <a href="#">Pricing</a>
+      </div>
+      <!-- nav buttond -->
+      <div class="hidden md:flex space-x-3">
+        <button class="bg-[#272727] px-3 py-1 rounded-full text-[12px]  text-white">
+          Open your account
+        </button>
+        <button class="bg-[#d7f033] px-3 py-1 rounded-full text-[12px] text-black font-medium">
+          Sign in >
+        </button>
+      </div>
+      <!-- hamburger -->
+      <div id="menuToggle" class="md:hidden">
+        <i class='bx bx-menu-alt-right text-white text-2xl'></i>
+      </div>
+    </div>
+    <!-- mobile links -->
+    <div id="mobileMenu" class=" shadow-2xl w-[70%] py-3 mx-auto text-center flex flex-col justify-center md:hidden">
+      <div class="flex flex-col space-y-3 text-white font-light">
+      <a href="#">Deposit</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Company</a>
+      <a href="#">Pricing</a>
+    </div>
+    <div class="flex justify-around text-white space-x-5 mt-3">
+      <button class="bg-[#272727] px-3 py-1 rounded-full text-[12px] ">
+        Open your account
+      </button>
+      <button class="bg-[#d7f033] px-3 py-1 rounded-full text-[12px] text-black font-medium">
+        Sign in >
+      </button>
+    </div>
+    </div>
+    </nav>
+  </section>
+
+
+
+  <!-- hero section -->
+
+  <section class="px-3 xl:px-8 md:rounded-lg md:h-fit sm:h-[87rem] h-[89rem] rounded-lg lg:px-7 bg-white">
+    <!-- main container -->
+    <div class= "w-full ">
+
+
+
+
+
+
+
+
+
+
+      <!-- second container -->
+      <div class="hidden md:flex md:flex-col mt-16 md:mt-10 lg:hidden">
+        <!-- text container -->
+        <div class="flex flex-col justify-center text-center">
+        <h1 class="text-4xl font-medium md:text-5xl w-[65%]  md:mx-auto md:font-bold">
+          Responsible Banking Made Easier
+        </h1>
+        <p class="w-[80%] mx-auto my-4 md:w-[60%]">
+          Finacial services, including P2P payments, balance check and top - ups - are now available from any mobile app, including all messaging ones.
+        </p>
+      </div>
+      <!-- download container -->
+      <div class="bg-white flex items-center justify-between px-4 rounded-full py-2 shadow-lg drop-shadow-lg w-[75%] mx-auto
+      ">
+        <p class="font-medium">Download Application</p>
+        <i class='bx bxs-cloud-download text-2xl'></i>
+      </div>
+      <!-- numbers --> 
+      <div class="flex justify-center space-x-12 text-center my-5">
+
+        <!-- first -->
+        <div >
+          <p class="font-medium text-[13px]">Active users</p>
+          <p class="font-bold">5000+</p>
+        </div>
+        <!-- second -->
+        <div class="w-[1.5px] h-10 bg-[#333] ">
+        </div>
+          <div>
+          <p class="font-medium text-[13px]">Download</p>
+          <p class="font-bold">30.3k</p>
+        </div>
+        <div class="w-[1.5px] h-10 bg-[#333] ">
+        </div>
+        <!-- third -->
+        <div>
+          <p class="font-medium text-[13px]">Reviews</p>
+          <p class="font-bold">1200+</p>
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="md:flex justify-around items-center lg:items-start lg:justify-center xl:justify-around xl:px-10">
+
+      <!-- first container -->
+      <div class=" relative py-3 ">
+        <!-- image container -->
+        <div class="w-[300px] mx-auto bg-gradient-to-b from-[rgb(255,134,59)] to-[rgb(164,93,35)] rounded-xl">
+          <img src="image/womanphone.png" alt="" class=" ">
+        </div>
+        <!-- card container -->
+        <div class="bg-[#ffffff69] backdrop-blur-md shadow w-[250px] max-w-[250px] py-3 px-5 rounded-[20px] absolute -bottom-12 left-1/2 translate-x-[-50%]">
+
+          <div class="space-y-8">
+            <div class="flex items-center justify-between">
+              <p>Paymeny method</p>
+              <div class="w-5 h-5 rounded-full bg-black"></div>
+            </div>
+            <div class="flex justify-around">
+              <div class="w-[30%]">
+                <img src="image/money.png" alt="" class="w-[40px]">
+                <p class="text-[10px]">master card</p>
+              </div>
+              <div class="flex items-center">
+                <i class='bx bxs-star mb-2'></i>
+                <i class='bx bxs-star mb-2'></i>
+                <i class='bx bxs-star mb-2'></i>
+                <i class='bx bxs-star mb-2'></i>
+                <p class="text-2xl font-bold">5550</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second container -->
+      <div class=" mt-16 md:hidden lg:block  lg:px-6  xl:w-[40%]">
+        <!-- text container -->
+        <div class="flex flex-col justify-center text-center lg:text-left">
+        <h1 class="text-4xl font-medium lg:text-[55px] lg:leading-[50px]">
+          Responsible Banking Made Easier
+        </h1>
+        <p class="w-[80%] mx-auto my-4 lg:text-left lg:mx-0">
+          Finacial services, including P2P payments, balance check and top - ups - are now available from any mobile app, including all messaging ones.
+        </p>
+      </div>
+      <!-- download container -->
+      <div class="bg-white flex items-center justify-between px-4 rounded-full py-2 shadow-lg drop-shadow-lg w-[75%] mx-auto lg:mx-0 lg:w-[80%]">
+        <p class="font-medium lg:text-[14px]">Download Application</p>
+        <i class='bx bxs-cloud-download text-2xl'></i>
+      </div>
+      <!-- numbers --> 
+      <div class="flex justify-center space-x-12 text-center my-5 lg:justify-start lg:space-x-8">
+
+        <!-- first -->
+        <div >
+          <p class="font-medium text-[13px]">Active users</p>
+          <p class="font-bold">5000+</p>
+        </div>
+        <!-- second -->
+        <div class="w-[1.5px] h-10 bg-[#333] ">
+        </div>
+          <div>
+          <p class="font-medium text-[13px]">Download</p>
+          <p class="font-bold">30.3k</p>
+        </div>
+        <div class="w-[1.5px] h-10 bg-[#333] ">
+        </div>
+        <!-- third -->
+        <div>
+          <p class="font-medium text-[13px]">Reviews</p>
+          <p class="font-bold">1200+</p>
+        </div>
+      </div>
+      </div>
+
+      <!-- third container -->
+      <div class="">
+        <!-- mobile ui -->
+        <div class="relative w-[250px] lg:w-[230px] mx-auto mb-10">
+          <img src="image/rb_2148599874.png" alt="">
+
+        <!-- text container -->
+          <div class="absolute w-[300px] h-52 max-w-[300px] lg:w-[270px] mx-auto -bottom-7 left-1/2 translate-x-[-50%] py-6 bg-[#ffffff6b] backdrop-blur-md shadow">
+            <div class="text-center space-y-6 ">
+            <h1 class="text-2xl font-medium ">
+              All Debit Cards
+            </h1>
+            <p class="text-[12px] w-[40%] mx-auto mt-10">
+              For details please click on each card
+            </p>
+          </div>
+          <div class="flex justify-center mt-9">
+            <button class="px-8 py-1 rounded-full text-[16px] text-white font-light bg-slate-800">
+              Order a card
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  
+      </div>
+  </section>
+
+
+
+  <!-- last section -->
+
+  <section class=" lg:flex mt-1">
+    <!-- first col -->
+    <div class=" py-4 my-1 rounded-lg lg:h-[300px] xl:py-5 lg:my-auto xl:mx-0 xl:w-[27%] xl:px-0 
+    bg-[rgb(243,140,77)]">
+      <!-- text container -->
+      <div class=" w-[80%] mx-auto text-center lg:w-full xl:flex xl:justify-between xl:w-[80%]">
+        <h1 class="text-3xl font-bold lg:text-2xl">How it works</h1>
+        <p class="lg:text-[13px] xl:w-[40%] xl:text-[14px] ">Mobile banking differs from mobile payments,</p>
+      </div>
+      <!-- piggy container --> 
+      <div class="w-fit  mx-auto flex-col text-center xl:mx-0 xl:mt-5">
+        <!-- black container -->
+        <div class="relative space-y-3 xl:flex xl:items-end xl:justify-between ">
+        <div class="bg-black rounded-lg w-[200px] h-28 mt-7 ">
+
+          <div class="w-[180px] bg-[#e6e63a] absolute -top-2 left-0 xl:left-0 xl:top-5 rounded-r-lg">
+            <img src="image/spotted-ceramic-piggybank-coins-against-pink-background.png" alt="" class="p-2">
+          </div>
+        </div>
+          <p class="font-bold xl:font-medium xl:ml-10">30 Days free trial</p>
+      </div>
+      </div>
+    </div>
+    <!-- second col -->
+    <div class=" rounded-lg lg:flex lg:justify-around lg:items-center bg-white lg:ml-2 lg:h-[300px]">
+      <!-- first col -->
+      <div class=" lg:h-[270px] lg:py-4 lg:w-[45%]">
+        <h1 class="text-3xl w-[75%] mx-auto font-bold text-center lg:hidden">All the experience in the new Application</h1>
+
+
+        <h1 class="hidden text-3xl  lg:flex w-[50%] font-bold mx-auto text-center justify-center">All the</h1>
+        <h1 class="hidden text-3xl lg:flex lg:w-[85%] font-bold mx-auto text-center ">experience in the new Application</h1>
+
+
+        <p class="w-[88%] mx-auto text-center text-[#333] text-[13px] lg:mt-7">Simple transfers, payments for utilities, functional statement, card settings, for which you used to have to go too the brance online-banking</p>
+      </div>
+      <!-- second col -->
+      <div class="flex justify-center items-start py-6 lg:w-[50%] xl:w-[40%] ">
+        <!-- pic reviews -->
+        <div class="text-center items-center flex flex-col space-y-2">
+          <div><h1 class="font-medium lg:text-[12px] ">Customer reviews</h1></div>
+          <div class="flex">
+            <img src="image/man-with-arms-crossed.jpg" alt="" class="rounded-full w-[25px] lg:w-[20px]">
+            <img src="image/portrait-man-near-taj-mahal.jpg" alt="" class="rounded-full w-[25px] mx-0.5 lg:w-[20px]">
+            <img src="image/portrait-young-handsome-man-posing.jpg" alt="" class="rounded-full w-[25px] lg:w-[20px]">
+            <i class='bx bxs-plus-circle text-[25px] lg:text-[20px] text-gray-500'></i>
+          </div>
+        </div>
+      
+      <!-- big image -->
+      <div class="flex  items-end">
+        <img src="image/excited-young-woman-with-curly-crisp-hair-gestures-actively-laughs-out-gets-pleasant-emotions-from-seeing-something-cool-pleasant.png" alt="" class="w-[250px] lg:w-[230px]">
+        <div class="text-center">
+          <p class="font-bold">Ethan Orio</p>
+          <p class="font-light text-[10px]">Design Director</p>
+        </div>
+        
+      </div>
+    </div>
+      
+    </div>
+  </section>
+
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu')
+
+  menuToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden')
+  })
+</script>
+</body>
+</html>
